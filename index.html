@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Cool Periodic Table made with Vanilla HTML, CSS and Javascript"
+    />
+    <meta name="author" content="Anany Aadil" />
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <button id="x">X</button>
+      <div class="buttons">
+        <div class="alkali-metals" id="alkali">Alkali Metals</div>
+        <div class="alkali-earth-metals" id="alkali-earth">
+          Alkali Earth Metals
+        </div>
+        <div class="lanthanoids" id="lanthanoid">Lanthanoids</div>
+        <div class="aktinoids" id="actinoid">actinoids</div>
+        <div class="transition-metals" id="transition">transition metals</div>
+        <div class="post-transition-metals" id="post-transition">
+          post transition metals
+        </div>
+        <div class="metaloids" id="metaloid">metalloids</div>
+        <div class="other-non-metals" id="other">other non metals</div>
+        <div class="noble-gases" id="noble">noble gases</div>
+        <div class="halogens" id="halogens">halogens</div>
+        <div class="other" id="unknown">unknown</div>
+      </div>
+      <div class="section">
+        <div class="group">
+          <div class="element other-non-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">H</h1>
+            <span class="atomic-name">Hydrogen</span>
+          </div>
+          <div class="element alkali-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Li</h1>
+            <span class="atomic-name">Lithium</span>
+          </div>
+          <div class="element alkali-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Na</h1>
+            <span class="atomic-name">Sodium</span>
+          </div>
+          <div class="element alkali-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">K</h1>
+            <span class="atomic-name">Potassium</span>
+          </div>
+          <div class="element alkali-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Rb</h1>
+            <span class="atomic-name">Rubidium</span>
+          </div>
+          <div class="element alkali-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Cs</h1>
+            <span class="atomic-name">Caesium</span>
+          </div>
+          <div class="element alkali-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Fr</h1>
+            <span class="atomic-name">Francium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="element alkali-earth-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Be</h1>
+            <span class="atomic-name">Beryllium</span>
+          </div>
+          <div class="element alkali-earth-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Mg</h1>
+            <span class="atomic-name">Magnesium</span>
+          </div>
+          <div class="element alkali-earth-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ca</h1>
+            <span class="atomic-name">Calcium</span>
+          </div>
+          <div class="element alkali-earth-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Sr</h1>
+            <span class="atomic-name">Strontium</span>
+          </div>
+          <div class="element alkali-earth-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ba</h1>
+            <span class="atomic-name">Barium</span>
+          </div>
+          <div class="element alkali-earth-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ra</h1>
+            <span class="atomic-name">Radium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Sc</h1>
+            <span class="atomic-name">Scandium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Y</h1>
+            <span class="atomic-name">Yttrium</span>
+          </div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ti</h1>
+            <span class="atomic-name">Titanium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Zr</h1>
+            <span class="atomic-name">Zirconium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Hf</h1>
+            <span class="atomic-name">Hafnium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Rf</h1>
+            <span class="atomic-name">Rutherfordium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">V</h1>
+            <span class="atomic-name">Vanadium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Nb</h1>
+            <span class="atomic-name">Niobium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ta</h1>
+            <span class="atomic-name">Tantalum</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Db</h1>
+            <span class="atomic-name">Dubnium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Cr</h1>
+            <span class="atomic-name">Chromium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Mo</h1>
+            <span class="atomic-name">Molybdenum</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">W</h1>
+            <span class="atomic-name">Tungsten</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Sg</h1>
+            <span class="atomic-name">Seaborgium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <span class="atomic-number"></span>
+          <div class="empty-area-element"></div>
+          <span class="atomic-number"></span>
+          <div class="empty-area-element"></div>
+          <span class="atomic-number"></span>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Mn</h1>
+            <span class="atomic-name">Manganese</span>
+          </div>
+          <div class="element transition-metals radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Tc</h1>
+            <span class="atomic-name">Technitium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Re</h1>
+            <span class="atomic-name">Rhenium</span>
+          </div>
+          <div class="element transition-metals radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Bh</h1>
+            <span class="atomic-name">Bhorium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Fe</h1>
+            <span class="atomic-name">Iron</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ru</h1>
+            <span class="atomic-name">Ruthenium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Os</h1>
+            <span class="atomic-name">Osmium</span>
+          </div>
+          <div class="element transition-metals radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Hs</h1>
+            <span class="atomic-name">Hassium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Co</h1>
+            <span class="atomic-name">Cobalt</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Rh</h1>
+            <span class="atomic-name">Rhodium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ir</h1>
+            <span class="atomic-name">Iridium</span>
+          </div>
+          <div class="element other">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Mt</h1>
+            <span class="atomic-name">Meitnerium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ni</h1>
+            <span class="atomic-name">Nickel</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Pd</h1>
+            <span class="atomic-name">Palladium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Pt</h1>
+            <span class="atomic-name">Platinum</span>
+          </div>
+          <div class="element other">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ds</h1>
+            <span class="atomic-name">Darmstadium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Cu</h1>
+            <span class="atomic-name">Copper</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Ag</h1>
+            <span class="atomic-name">Silver</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Au</h1>
+            <span class="atomic-name">Gold</span>
+          </div>
+          <div class="element other">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Rg</h1>
+            <span class="atomic-name">Roentgenium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Zn</h1>
+            <span class="atomic-name">Zinc</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Cd</h1>
+            <span class="atomic-name">Cadmium</span>
+          </div>
+          <div class="element transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Hg</h1>
+            <span class="atomic-name">Mercury</span>
+          </div>
+          <div class="element transition-metals radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Cn</h1>
+            <span class="atomic-name">Copernicium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="element metaloids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">B</h1>
+            <span class="atomic-name">Boron</span>
+          </div>
+          <div class="element post-transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">Al</h1>
+            <span class="atomic-name">aluminium</span>
+          </div>
+          <div class="element post-transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ga</h1>
+            <span class="atomic-name">gallium</span>
+          </div>
+          <div class="element post-transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">in</h1>
+            <span class="atomic-name">indium</span>
+          </div>
+          <div class="element post-transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">tl</h1>
+            <span class="atomic-name">thallium</span>
+          </div>
+          <div class="element other radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">nh</h1>
+            <span class="atomic-name">nihonium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="element other-non-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">c</h1>
+            <span class="atomic-name">carbon</span>
+          </div>
+          <div class="element metaloids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">si</h1>
+            <span class="atomic-name">silicon</span>
+          </div>
+          <div class="element metaloids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ge</h1>
+            <span class="atomic-name">germanium</span>
+          </div>
+          <div class="element post-transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">sn</h1>
+            <span class="atomic-name">tin</span>
+          </div>
+          <div class="element post-transition-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">pb</h1>
+            <span class="atomic-name">lead</span>
+          </div>
+          <div class="element post-transition-metals radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">fl</h1>
+            <span class="atomic-name">flervonium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="element other-non-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">n</h1>
+            <span class="atomic-name">nitrogen</span>
+          </div>
+          <div class="element other-non-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">p</h1>
+            <span class="atomic-name">phosphorus</span>
+          </div>
+          <div class="element metaloids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">as</h1>
+            <span class="atomic-name">arsenic</span>
+          </div>
+          <div class="element metaloids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">sb</h1>
+            <span class="atomic-name">antimony</span>
+          </div>
+          <div class="element post-transition-metals radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">bi</h1>
+            <span class="atomic-name">bismuth</span>
+          </div>
+          <div class="element other radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">mc</h1>
+            <span class="atomic-name">moscovium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="element other-non-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">o</h1>
+            <span class="atomic-name">oxygen</span>
+          </div>
+          <div class="element other-non-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">s</h1>
+            <span class="atomic-name">sulphur</span>
+          </div>
+          <div class="element other-non-metals">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">se</h1>
+            <span class="atomic-name">selenium</span>
+          </div>
+          <div class="element metaloids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">te</h1>
+            <span class="atomic-name">tellurium</span>
+          </div>
+          <div class="element post-transition-metals radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">po</h1>
+            <span class="atomic-name">polonium</span>
+          </div>
+          <div class="element other radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">lv</h1>
+            <span class="atomic-name">livermonium</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="empty-area-element"></div>
+          <div class="element halogens">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">f</h1>
+            <span class="atomic-name">flourine</span>
+          </div>
+          <div class="element halogens">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">cl</h1>
+            <span class="atomic-name">chlorine</span>
+          </div>
+          <div class="element halogens">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">br</h1>
+            <span class="atomic-name">bromine</span>
+          </div>
+          <div class="element halogens">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">i</h1>
+            <span class="atomic-name">iodine</span>
+          </div>
+          <div class="element halogens radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">at</h1>
+            <span class="atomic-name">astatine</span>
+          </div>
+          <div class="element other radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ts</h1>
+            <span class="atomic-name">tennesine</span>
+          </div>
+        </div>
+        <div class="group">
+          <div class="element noble-gases">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">he</h1>
+            <span class="atomic-name">helium</span>
+          </div>
+          <div class="element noble-gases">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ne</h1>
+            <span class="atomic-name">neon</span>
+          </div>
+          <div class="element noble-gases">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ar</h1>
+            <span class="atomic-name">argon</span>
+          </div>
+          <div class="element noble-gases">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">kr</h1>
+            <span class="atomic-name">kypton</span>
+          </div>
+          <div class="element noble-gases">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">xe</h1>
+            <span class="atomic-name">xenon</span>
+          </div>
+          <div class="element noble-gases radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">rn</h1>
+            <span class="atomic-name">radon</span>
+          </div>
+          <div class="element other radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">og</h1>
+            <span class="atomic-name">oganesson</span>
+          </div>
+        </div>
+      </div>
+      <div class="f-block">
+        <div></div>
+        <div class="lanthanoids">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">La</h1>
+            <span class="atomic-name">lanthanum</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ce</h1>
+            <span class="atomic-name">cerium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">pr</h1>
+            <span class="atomic-name">praseodymium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">nd</h1>
+            <span class="atomic-name">neodymium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number">pm</span>
+            <h1 class="atomic-symbol">pm</h1>
+            <span class="atomic-name">promethium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">sm</h1>
+            <span class="atomic-name">samarium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">eu</h1>
+            <span class="atomic-name">europium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">gd</h1>
+            <span class="atomic-name">gadolinium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">tb</h1>
+            <span class="atomic-name">terbium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">dy</h1>
+            <span class="atomic-name">dysprosium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ho</h1>
+            <span class="atomic-name">holmium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">er</h1>
+            <span class="atomic-name">erbium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">tm</h1>
+            <span class="atomic-name">thulium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">yb</h1>
+            <span class="atomic-name">ytterbium</span>
+          </div>
+          <div class="element lanthanoids">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">lu</h1>
+            <span class="atomic-name">lutetium</span>
+          </div>
+        </div>
+        <div class="aktinoids">
+          <div class="empty-area-element"></div>
+          <div class="empty-area-element"></div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">ac</h1>
+            <span class="atomic-name">actinium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">th</h1>
+            <span class="atomic-name">thorium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">pa</h1>
+            <span class="atomic-name">protactinium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">u</h1>
+            <span class="atomic-name">uranium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">np</h1>
+            <span class="atomic-name">neptunium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">pu</h1>
+            <span class="atomic-name">plutonium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">am</h1>
+            <span class="atomic-name">americium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">cm</h1>
+            <span class="atomic-name">curium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">bk</h1>
+            <span class="atomic-name">berkelium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">cf</h1>
+            <span class="atomic-name">californium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">es</h1>
+            <span class="atomic-name">einsteinium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">fm</h1>
+            <span class="atomic-name">fermium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">md</h1>
+            <span class="atomic-name">mendelevium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">no</h1>
+            <span class="atomic-name">nobelium</span>
+          </div>
+          <div class="element aktinoids radio-active">
+            <span class="atomic-number"></span>
+            <h1 class="atomic-symbol">lr</h1>
+            <span class="atomic-name">lawrencium</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
